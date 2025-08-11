@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quintal Jerseys | Inicio</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+  <style>
+    .section-title {
+      font-size: 1.8rem;
+      font-weight: 600;
+      margin-bottom: 1.5rem;
+    }
+    blockquote {
+      background: #f8f9fa;
+      border-left: 4px solid #25d366;
+      padding: 1rem;
+      border-radius: 8px;
+    }
+  </style>
+  <style>
+      .whatsapp-float {
+        position: fixed;
+        width: 60px;
+        height: 60px;
+        bottom: 20px;
+        right: 20px;
+        background-color: #25d366;
+        color: #fff;
+        border-radius: 50%;
+        text-align: center;
+        font-size: 30px;
+        box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+        z-index: 1000;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .whatsapp-float:hover {
+        background-color: #20b954;
+        color: #fff;
+      }
+   </style>
+</head>
+
+<body>
+<!-- Navbar con logo -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+    <div class="container">
+      <a class="navbar-brand d-flex align-items-center" href="#">
+        <img src="assets/img/logo.png" alt="Quintal Jerseys" height="40" class="me-2">
+        <span>Quintal Jerseys</span>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="temporada-25-26.html">Temporada 25-26</a></li>
+          <li class="nav-item"><a class="nav-link" href="retro.html">Retro</a></li>
+          <li class="nav-item"><a class="nav-link" href="ediciones-especiales.html">Ediciones Especiales</a></li>
+          <li class="nav-item"><a class="nav-link" href="nuevos-lanzamientos.html">Nuevos Lanzamientos</a></li>
+          <li class="nav-item"><a class="nav-link" href="contacto.html">Contacto</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Carrusel -->
+  <div id="mainCarousel" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="assets/img/banner1.jpg" class="d-block w-100" alt="Banner 1">
+      </div>
+      <div class="carousel-item">
+        <img src="assets/img/banner2.jpg" class="d-block w-100" alt="Banner 2">
+      </div>
+      <div class="carousel-item">
+        <img src="assets/img/banner3.jpg" class="d-block w-100" alt="Banner 3">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#mainCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#mainCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <!-- Sección Temporada 25-26 -->
+  <section class="py-5 text-center">
+    <div class="container">
+      <h2 class="section-title">Temporada 25-26</h2>
+      <a href="temporada-25-26.html">
+        <img src="assets/img/categorias/temporada-25-26.jpg" class="img-fluid rounded shadow" alt="Temporada 25-26">
+      </a>
+    </div>
+  </section>
+
+  <!-- Sección Retro -->
+  <section class="py-5 text-center bg-light">
+    <div class="container">
+      <h2 class="section-title">Retro</h2>
+      <a href="retro.html">
+        <img src="assets/img/categorias/retro.jpg" class="img-fluid rounded shadow" alt="Retro">
+      </a>
+    </div>
+  </section>
+
+  <!-- Sección Ediciones Especiales -->
+  <section class="py-5 text-center">
+    <div class="container">
+      <h2 class="section-title">Ediciones Especiales</h2>
+      <a href="ediciones-especiales.html">
+        <img src="assets/img/categorias/ediciones-especiales.jpg" class="img-fluid rounded shadow" alt="Ediciones Especiales">
+      </a>
+    </div>
+  </section>
+
+  <!-- Nuevos lanzamientos -->
+  <section class="py-5 text-center bg-light">
+    <div class="container">
+      <h2 class="section-title">Nuevos lanzamientos</h2>
+      <div class="row row-cols-3 g-3">
+        <div class="col">
+          <div class="position-relative">
+            <img src="assets/img/temp2526/barcelona-local.jpg" class="img-fluid rounded shadow" alt="Barcelona Local">
+            <span class="badge bg-danger position-absolute top-0 start-0 m-2">Nuevo</span>
+          </div>
+        </div>
+        <div class="col">
+          <div class="position-relative">
+            <img src="assets/img/temp2526/realmadrid-local.jpg" class="img-fluid rounded shadow" alt="Real Madrid Local">
+            <span class="badge bg-danger position-absolute top-0 start-0 m-2">Nuevo</span>
+          </div>
+        </div>
+        <div class="col">
+          <div class="position-relative">
+            <img src="assets/img/temp2526/psg-local.jpg" class="img-fluid rounded shadow" alt="PSG Local">
+            <span class="badge bg-danger position-absolute top-0 start-0 m-2">Nuevo</span>
+          </div>
+        </div>
+      </div>
+      <a href="nuevos-lanzamientos.html" class="btn btn-success mt-4">Ver más</a>
+    </div>
+  </section>
+
+  <!-- Garantías -->
+  <section class="py-4 text-center">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 mb-3"><div class="p-3 bg-success text-white rounded">¡Envíos a todo Mérida!<br>Entrega bajo pedido: 4 semanas</div></div>
+        <div class="col-md-6"><div class="p-3 bg-success text-white rounded">100% premium</div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Opiniones -->
+  <section class="py-5">
+    <div class="container">
+      <h2 class="text-center section-title">Opiniones de clientes</h2>
+      <div class="row text-center">
+        <div class="col-md-4"><blockquote>"Excelente calidad, llegó rápido" – @leonardo.hga</blockquote></div>
+        <div class="col-md-4"><blockquote>"Me encanta, repetiré compra" – @melvinn.poot</blockquote></div>
+        <div class="col-md-4"><blockquote>"Atención 10/10" – @lalocan.yam</blockquote></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="py-4 bg-light text-center">
+    <p class="mb-0">© 2025 Quintal Jerseys. Todos los derechos reservados.</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- Botón flotante de WhatsApp -->
+<a href="https://wa.me/5219901183666?text=Hola,%20quiero%20información%20sobre%20una%20playera" 
+   class="whatsapp-float" target="_blank" aria-label="Chatea con nosotros por WhatsApp">
+  <i class="bi bi-whatsapp"></i>
+</a>
+
+</body>
+</html>

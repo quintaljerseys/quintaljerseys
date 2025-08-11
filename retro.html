@@ -1,0 +1,750 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quintal Jerseys | Retro</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body { font-family: 'Roboto', sans-serif; }
+        .section-title {
+            margin-top: 3rem;
+            margin-bottom: 1.5rem;
+            border-bottom: 2px solid #ccc;
+            padding-bottom: 0.5rem;
+        }
+        .whatsapp-float {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            z-index: 100;
+        }
+        .whatsapp-float img { width: 60px; height: 60px; }
+        .mini-grid img {
+            height: 100px;
+            object-fit: cover;
+        }
+    </style>
+        <a href="https://wa.me/5219901183666?text=¡Hola!,%20quiero%20informes%20sobre%20las%20playeras" class="whatsapp-float" target="_blank">
+      <i class="bi bi-whatsapp"></i>
+    </a>
+
+    <style>
+      .whatsapp-float {
+        position: fixed;
+        width: 60px;
+        height: 60px;
+        bottom: 20px;
+        right: 20px;
+        background-color: #25d366;
+        color: #fff;
+        border-radius: 50%;
+        text-align: center;
+        font-size: 30px;
+        box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+        z-index: 1000;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .whatsapp-float:hover {
+        background-color: #20b954;
+        color: #fff;
+      }
+    </style>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+</head>
+<body>
+<header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light shadow-sm">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="assets/img/logo.png" alt="Logo" style="width:40px; height:40px; margin-right:10px;">
+                Quintal Jerseys
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="temporada-25-26.html">Temporada 25-26</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="retro.html">Retro</a></li>
+                    <li class="nav-item"><a class="nav-link" href="ediciones-especiales.html">Ediciones Especiales</a></li>
+                    <li class="nav-item"><a class="nav-link" href="nuevos-lanzamientos.html">Nuevos Lanzamientos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contacto.html">Contacto</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+<div class="alert alert-primary text-center rounded-0 mb-0" role="alert">
+  ¿No encuentras la playera que buscabas? 
+  <a href="https://wa.me/5219901183666?text=Te%20mando%20una%20foto%20de%20la%20playera%20que%20quiero" class="alert-link" target="_blank">
+    mándanos una foto
+  </a>.
+</div>
+
+</header>
+
+<main class="container my-4">
+    <h1 class="mb-4 text-center">Colección Retro</h1>
+
+    <!-- Barra de búsqueda -->
+    <div class="row mb-4">
+        <div class="col-md-6 offset-md-3">
+            <input id="searchInput" type="text" class="form-control" placeholder="Buscar por equipo, año o edición...">
+        </div>
+    </div>
+
+<!-- SELECCIONES NACIONALES -->
+<div class="section-title d-flex justify-content-between align-items-center">
+    <h2>Selecciones Nacionales</h2>
+    <a href="retro-selecciones.html" class="btn btn-outline-primary btn-sm">Ver más</a>
+</div>
+
+<div id="retroSeleccionesCarousel" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+
+        <!-- México 1998 -->
+        <div class="carousel-item active">
+            <div class="card shadow-sm">
+                <img src="assets/img/retroselecciones/mexico-1998-local.jpg" class="card-img-top" alt="México 1998 local">
+                <div class="card-body">
+                    <span class="badge bg-dark mb-2">Desde $500 MXN</span>
+                    <h5 class="card-title">México 1998 local</h5>
+                    <a href="https://wa.me/5219901183666?text=Hola,%20me%20interesa%20la%20playera%20México%20local%20de%201998" target="_blank" class="btn btn-success w-100">Pedir por WhatsApp</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Brasil 2002 -->
+        <div class="carousel-item">
+            <div class="card shadow-sm">
+                <img src="assets/img/retroselecciones/brasil-2002-local.jpg" class="card-img-top" alt="Brasil 2002 local">
+                <div class="card-body">
+                    <span class="badge bg-dark mb-2">Desde $500 MXN</span>
+                    <h5 class="card-title">Brasil 2002 local</h5>
+                    <a href="https://wa.me/5219901183666?text=Hola,%20me%20interesa%20la%20playera%20Brasil%20local%20de%202002" target="_blank" class="btn btn-success w-100">Pedir por WhatsApp</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Francia 1998 -->
+        <div class="carousel-item">
+            <div class="card shadow-sm">
+                <img src="assets/img/retroselecciones/francia-1998-local.jpg" class="card-img-top" alt="Francia 1998 local">
+                <div class="card-body">
+                    <span class="badge bg-dark mb-2">Desde $500 MXN</span>
+                    <h5 class="card-title">Francia 1998 local</h5>
+                    <a href="https://wa.me/5219901183666?text=Hola,%20me%20interesa%20la%20playera%20Francia%20local%20de%201998" target="_blank" class="btn btn-success w-100">Pedir por WhatsApp</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Portugal 2004 -->
+        <div class="carousel-item">
+            <div class="card shadow-sm">
+                <img src="assets/img/retroselecciones/portugal-2004-local.jpg" class="card-img-top" alt="Portugal 2004 local">
+                <div class="card-body">
+                    <span class="badge bg-dark mb-2">Desde $500 MXN</span>
+                    <h5 class="card-title">Portugal 2004 local</h5>
+                    <a href="https://wa.me/5219901183666?text=Hola,%20me%20interesa%20la%20playera%20Portugal%20local%20de%202004" target="_blank" class="btn btn-success w-100">Pedir por WhatsApp</a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Controles -->
+    <button class="carousel-control-prev" type="button" data-bs-target="#retroSeleccionesCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Anterior</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#retroSeleccionesCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Siguiente</span>
+    </button>
+</div>
+
+
+
+<!-- Años 90 -->
+<div class="section-title"><h2>Años 90</h2></div>
+<div class="row g-4 catalog">
+        
+        <div class="col-6 col-lg-3">
+        <div class="card shadow-sm">
+        <img src="assets/img/retroclub/manchesterunited-1999-local.jpg" class="card-img-top" alt="Manchester United '99 Local">
+        <div class="card-body">
+        <span class="badge bg-dark mb-2">Desde $500 MXN</span>
+        <h5 class="card-title">Manchester United '99 Local</h5>
+        <a href="https://wa.me/5219901183666?text=Hola,%20me%20interesa%20la%20playera%20Manchester%20United%20local%20de%201999" target="_blank" class="btn btn-success w-100">Pedir por WhatsApp</a>
+        </div>
+        </div>
+        </div>
+
+        <div class="col-6 col-lg-3">
+        <div class="card shadow-sm">
+        <img src="assets/img/retroclub/acmilan-1994-local.jpg" class="card-img-top" alt="AC Milan '94 local ">
+        <div class="card-body">
+        <span class="badge bg-dark mb-2">Desde $500 MXN</span>
+        <h5 class="card-title">AC Milan '94 local </h5>
+        <a href="https://wa.me/5219901183666?text=Hola,%20me%20interesa%20la%20playera%20AC%20Milan%20local%20de%201994" target="_blank" class="btn btn-success w-100">Pedir por WhatsApp</a>
+        </div>
+        </div>
+        </div>
+
+        <div class="col-6 col-lg-3">
+        <div class="card shadow-sm">
+        <img src="assets/img/retroclub/juventus-1996-visitante.jpg" class="card-img-top" alt="Juventus '96 visitante ">
+        <div class="card-body">
+        <span class="badge bg-dark mb-2">Desde $500 MXN</span>
+        <h5 class="card-title">Juventus '96 visitante </h5>
+        <a href="https://wa.me/5219901183666?text=Hola,%20me%20interesa%20la%20playera%20Juventus%20visitante%20de%201996" target="_blank" class="btn btn-success w-100">Pedir por WhatsApp</a>
+        </div>
+        </div>
+        </div>
+
+        <div class="col-6 col-lg-3">
+        <div class="card shadow-sm">
+        <img src="assets/img/retroclub/barcelona-1997-local.jpg" class="card-img-top" alt="Barcelona '97 local">
+        <div class="card-body">
+        <span class="badge bg-dark mb-2">Desde $500 MXN</span>
+        <h5 class="card-title">Barcelona '97 local</h5>
+        <a href="https://wa.me/5219901183666?text=Hola,%20me%20interesa%20la%20playera%20Barcelona%20local%20de%201997" target="_blank" class="btn btn-success w-100">Pedir por WhatsApp</a>
+        </div>
+        </div>
+        </div>
+
+        <div class="col-6 col-lg-3">
+        <div class="card shadow-sm">
+        <img src="assets/img/retroclub/realmadrid-1998-local.jpg" class="card-img-top" alt="Real Madrid '98 local">
+        <div class="card-body">
+        <span class="badge bg-dark mb-2">Desde $500 MXN</span>
+        <h5 class="card-title">Real Madrid '98 local</h5>
+        <a href="https://wa.me/5219901183666?text=Hola,%20me%20interesa%20la%20playera%20Real%20Madrid%20local%20de%201998" target="_blank" class="btn btn-success w-100">Pedir por WhatsApp</a>
+        </div>
+        </div>
+        </div>
+
+        <div class="col-6 col-lg-3">
+        <div class="card shadow-sm">
+        <img src="assets/img/retroclub/arsenal-1994-visitante.jpg" class="card-img-top" alt="Arsenal '94 visitante">
+        <div class="card-body">
+        <span class="badge bg-dark mb-2">Desde $500 MXN</span>
+        <h5 class="card-title">Arsenal '94 visitante</h5>
+        <a href="https://wa.me/5219901183666?text=Hola,%20me%20interesa%20la%20playera%20Arsenal%20visitante%20de%201994" target="_blank" class="btn btn-success w-100">Pedir por WhatsApp</a>
+        </div>
+        </div>
+        </div>
+
+        <div class="col-6 col-lg-3">
+        <div class="card shadow-sm">
+        <img src="assets/img/retroclub/borussiadortmund-1997-local.jpg" class="card-img-top" alt="Borussia Dortmund '97 local ">
+        <div class="card-body">
+        <span class="badge bg-dark mb-2">Desde $500 MXN</span>
+        <h5 class="card-title">Borussia Dortmund '97 local </h5>
+        <a href="https://wa.me/5219901183666?text=Hola,%20me%20interesa%20la%20playera%20Borussia%20Dortmund%20local%20de%201997" target="_blank" class="btn btn-success w-100">Pedir por WhatsApp</a>
+        </div>
+        </div>
+        </div>
+
+        <div class="col-6 col-lg-3">
+        <div class="card shadow-sm">
+        <img src="assets/img/retroclub/ajax-1995-local.jpg" class="card-img-top" alt="Ajax '95 local">
+        <div class="card-body">
+        <span class="badge bg-dark mb-2">Desde $500 MXN</span>
+        <h5 class="card-title">Ajax '95 local</h5>
+        <a href="https://wa.me/5219901183666?text=Hola,%20me%20interesa%20la%20playera%20Ajax%20local%20de%201995" target="_blank" class="btn btn-success w-100">Pedir por WhatsApp</a>
+        </div>
+        </div>
+        </div>
+        </div>
+
+<!-- 2000 - 2005 -->
+<div class="section-title"><h2>2000 - 2005</h2></div>
+<div class="row g-4 catalog">
+
+        <div class="col-6 col-lg-3">
+        <div class="card shadow-sm">
+        <img src="assets/img/retroclub/arsenal-2003-2004-local.jpg" class="card-img-top" alt="Arsenal '03-04 local">
+        <div class="card-body">
+        <span class="badge bg-dark mb-2">Desde $500 MXN</span>
+        <h5 class="card-title">Arsenal '03-04 local</h5>
+        <a href="https://wa.me/5219901183666?text=Hola,%20me%20interesa%20la%20playera%20Arsenal%20local%20de%202003-2004" target="_blank" class="btn btn-success w-100">Pedir por WhatsApp</a>
+        </div>
+        </div>
+        </div>
+
+        <div class="col-6 col-lg-3">
+        <div class="card shadow-sm">
+        <img src="assets/img/retroclub/realmadrid-2002-2003-local.jpg" class="card-img-top" alt="Real Madrid '02-03 local">
+        <div class="card-body">
+        <span class="badge bg-dark mb-2">Desde $500 MXN</span>
+        <h5 class="card-title">Real Madrid '02-03 local</h5>
+        <a href="https://wa.me/5219901183666?text=Hola,%20me%20interesa%20la%20playera%20Real%20Madrid%20local%20de%202002-2003" target="_blank" class="btn btn-success w-100">Pedir por WhatsApp</a>
+        </div>
+        </div>
+        </div>
+
+        <div class="col-6 col-lg-3">
+        <div class="card shadow-sm">
+        <img src="assets/img/retroclub/manchesterunited-2002-local.jpg" class="card-img-top" alt="Manchester United '02 Local">
+        <div class="card-body">
+        <span class="badge bg-dark mb-2">Desde $500 MXN</span>
+        <h5 class="card-title">Manchester United '02 Local</h5>
+        <a href="https://wa.me/5219901183666?text=Hola,%20me%20interesa%20la%20playera%20Manchester%20United%20local%20de%202002" target="_blank" class="btn btn-success w-100">Pedir por WhatsApp</a>
+        </div>
+        </div>
+        </div>
+
+        <div class="col-6 col-lg-3">
+        <div class="card shadow-sm">
+        <img src="assets/img/retroclub/chelsea-2004-visitante.jpg" class="card-img-top" alt="Chelsea '04 visitante">
+        <div class="card-body">
+        <span class="badge bg-dark mb-2">Desde $500 MXN</span>
+        <h5 class="card-title">Chelsea '04 visitante</h5>
+        <a href="https://wa.me/5219901183666?text=Hola,%20me%20interesa%20la%20playera%20Chelsea%20visitante%20de%202004" target="_blank" class="btn btn-success w-100">Pedir por WhatsApp</a>
+        </div>
+        </div>
+        </div>
+
+        <div class="col-6 col-lg-3">
+        <div class="card shadow-sm">
+        <img src="assets/img/retroclub/juventus-2003-visitante.jpg" class="card-img-top" alt="Juventus '03 visitante">
+        <div class="card-body">
+        <span class="badge bg-dark mb-2">Desde $500 MXN</span>
+        <h5 class="card-title">Juventus '03 visitante</h5>
+        <a href="https://wa.me/5219901183666?text=Hola,%20me%20interesa%20la%20playera%20Juventus%20visitante%20de%202003" target="_blank" class="btn btn-success w-100">Pedir por WhatsApp</a>
+        </div>
+        </div>
+        </div>
+
+        <div class="col-6 col-lg-3">
+        <div class="card shadow-sm">
+        <img src="assets/img/retroclub/acmilan-2004-local.jpg" class="card-img-top" alt="AC Milan '04 local">
+        <div class="card-body">
+        <span class="badge bg-dark mb-2">Desde $500 MXN</span>
+        <h5 class="card-title">AC Milan '04 local</h5>
+        <a href="https://wa.me/5219901183666?text=Hola,%20me%20interesa%20la%20playera%20AC%20Milan%20local%20de%202004" target="_blank" class="btn btn-success w-100">Pedir por WhatsApp</a>
+        </div>
+        </div>
+        </div>
+
+        <div class="col-6 col-lg-3">
+        <div class="card shadow-sm">
+        <img src="assets/img/retroclub/interdemilan-2002-local.jpg" class="card-img-top" alt="Inter de Milán '02 local">
+        <div class="card-body">
+        <span class="badge bg-dark mb-2">Desde $500 MXN</span>
+        <h5 class="card-title">Inter de Milán '02 local</h5>
+        <a href="https://wa.me/5219901183666?text=Hola,%20me%20interesa%20la%20playera%20Inter%20de%20Milán%20local%20de%202002" target="_blank" class="btn btn-success w-100">Pedir por WhatsApp</a>
+        </div>
+        </div>
+        </div>
+
+        <div class="col-6 col-lg-3">
+        <div class="card shadow-sm">
+        <img src="assets/img/retroclub/liverpool-2004-local.jpg" class="card-img-top" alt="Liverpool '04 local">
+        <div class="card-body">
+        <span class="badge bg-dark mb-2">Desde $500 MXN</span>
+        <h5 class="card-title">Liverpool '04 local</h5>
+        <a href="https://wa.me/5219901183666?text=Hola,%20me%20interesa%20la%20playera%20Liverpool%20local%20de%202004" target="_blank" class="btn btn-success w-100">Pedir por WhatsApp</a>
+        </div>
+        </div>
+        </div>
+        </div>
+
+
+<!-- 2006 - 2010 -->
+<div class="section-title"><h2>2006 - 2010</h2></div>
+<div class="row g-4 catalog">
+
+        <div class="col-6 col-lg-3">
+        <div class="card shadow-sm">
+        <img src="assets/img/retroclub/barcelona-2008-2009-local.jpg" class="card-img-top" alt="Barcelona '08-09 local">
+        <div class="card-body">
+        <span class="badge bg-dark mb-2">Desde $500 MXN</span>
+        <h5 class="card-title">Barcelona '08-09 local</h5>
+        <a href="https://wa.me/5219901183666?text=Hola,%20me%20interesa%20la%20playera%20Barcelona%20local%20de%202008-2009" target="_blank" class="btn btn-success w-100">Pedir por WhatsApp</a>
+        </div>
+        </div>
+        </div>
+
+        <div class="col-6 col-lg-3">
+        <div class="card shadow-sm">
+        <img src="assets/img/retroclub/manchesterunited-2008-local.jpg" class="card-img-top" alt="Manchester United '08 local">
+        <div class="card-body">
+        <span class="badge bg-dark mb-2">Desde $500 MXN</span>
+        <h5 class="card-title">Manchester United '08 local</h5>
+        <a href="https://wa.me/5219901183666?text=Hola,%20me%20interesa%20la%20playera%20Manchester%20United%20local%20de%202008" target="_blank" class="btn btn-success w-100">Pedir por WhatsApp</a>
+        </div>
+        </div>
+        </div>
+
+        <div class="col-6 col-lg-3">
+        <div class="card shadow-sm">
+        <img src="assets/img/retroclub/realmadrid-2007-local.jpg" class="card-img-top" alt="Real Madrid '07 local">
+        <div class="card-body">
+        <span class="badge bg-dark mb-2">Desde $500 MXN</span>
+        <h5 class="card-title">Real Madrid '07 local</h5>
+        <a href="https://wa.me/5219901183666?text=Hola,%20me%20interesa%20la%20playera%20Real%20Madrid%20local%20de%202007" target="_blank" class="btn btn-success w-100">Pedir por WhatsApp</a>
+        </div>
+        </div>
+        </div>
+
+        <div class="col-6 col-lg-3">
+        <div class="card shadow-sm">
+        <img src="assets/img/retroclub/chelsea-2009-local.jpg" class="card-img-top" alt="Chelsea '09 local">
+        <div class="card-body">
+        <span class="badge bg-dark mb-2">Desde $500 MXN</span>
+        <h5 class="card-title">Chelsea '09 local</h5>
+        <a href="https://wa.me/5219901183666?text=Hola,%20me%20interesa%20la%20playera%20Chelsea%20local%20de%202009" target="_blank" class="btn btn-success w-100">Pedir por WhatsApp</a>
+        </div>
+        </div>
+        </div>
+
+        <div class="col-6 col-lg-3">
+        <div class="card shadow-sm">
+        <img src="assets/img/retroclub/interdemilan-2009-2010-local.jpg" class="card-img-top" alt="Inter de Milán '09-10 local">
+        <div class="card-body">
+        <span class="badge bg-dark mb-2">Desde $500 MXN</span>
+        <h5 class="card-title">Inter de Milán '09-10 local</h5>
+        <a href="https://wa.me/5219901183666?text=Hola,%20me%20interesa%20la%20playera%20Inter%20de%20Milán%20local%20de%202009-2010" target="_blank" class="btn btn-success w-100">Pedir por WhatsApp</a>
+        </div>
+        </div>
+        </div>
+
+        <div class="col-6 col-lg-3">
+        <div class="card shadow-sm">
+        <img src="assets/img/retroclub/arsenal-2006-local.jpg" class="card-img-top" alt="Arsenal '06 visitante">
+        <div class="card-body">
+        <span class="badge bg-dark mb-2">Desde $500 MXN</span>
+        <h5 class="card-title">Arsenal '06 local</h5>
+        <a href="https://wa.me/5219901183666?text=Hola,%20me%20interesa%20la%20playera%20Arsenal%20visitante%20de%202006" target="_blank" class="btn btn-success w-100">Pedir por WhatsApp</a>
+        </div>
+        </div>
+        </div>
+
+        <div class="col-6 col-lg-3">
+        <div class="card shadow-sm">
+        <img src="assets/img/retroclub/liverpool-2007-local.jpg" class="card-img-top" alt="Liverpool '07 local">
+        <div class="card-body">
+        <span class="badge bg-dark mb-2">Desde $500 MXN</span>
+        <h5 class="card-title">Liverpool '07 local</h5>
+        <a href="https://wa.me/5219901183666?text=Hola,%20me%20interesa%20la%20playera%20Juventus%20local%20de%202009" target="_blank" class="btn btn-success w-100">Pedir por WhatsApp</a>
+        </div>
+        </div>
+        </div>
+
+        <div class="col-6 col-lg-3">
+        <div class="card shadow-sm">
+        <img src="assets/img/retroclub/acmilan-2007-local.jpg" class="card-img-top" alt="AC Milan '07 local">
+        <div class="card-body">
+        <span class="badge bg-dark mb-2">Desde $500 MXN</span>
+        <h5 class="card-title">AC Milan '07 local</h5>
+        <a href="https://wa.me/5219901183666?text=Hola,%20me%20interesa%20la%20playera%20AC%20Milan%20local%20de%202007" target="_blank" class="btn btn-success w-100">Pedir por WhatsApp</a>
+        </div>
+        </div>
+        </div>
+        </div>
+
+<!-- 2011 - 2015 -->
+<div class="section-title"><h2>2011 - 2015</h2></div>
+<div class="row g-4 catalog">
+
+        <div class="col-6 col-lg-3">
+        <div class="card shadow-sm">
+        <img src="assets/img/retroclub/barcelona-2011-local.jpg" class="card-img-top" alt="Barcelona '11 local">
+        <div class="card-body">
+        <span class="badge bg-dark mb-2">Desde $500 MXN</span>
+        <h5 class="card-title">Barcelona '11 local</h5>
+        <a href="https://wa.me/5219901183666?text=Hola,%20me%20interesa%20la%20playera%20Barcelona%20local%20de%202011" target="_blank" class="btn btn-success w-100">Pedir por WhatsApp</a>
+        </div>
+        </div>
+        </div>
+
+        <div class="col-6 col-lg-3">
+        <div class="card shadow-sm">
+        <img src="assets/img/retroclub/realmadrid-2014-local.jpg" class="card-img-top" alt="Real Madrid '14 local">
+        <div class="card-body">
+        <span class="badge bg-dark mb-2">Desde $500 MXN</span>
+        <h5 class="card-title">Real Madrid '14 local</h5>
+        <a href="https://wa.me/5219901183666?text=Hola,%20me%20interesa%20la%20playera%20Real%20Madrid%20local%20de%202014" target="_blank" class="btn btn-success w-100">Pedir por WhatsApp</a>
+        </div>
+        </div>
+        </div>
+
+        <div class="col-6 col-lg-3">
+        <div class="card shadow-sm">
+        <img src="assets/img/retroclub/manchesterunited-2013-local.jpg" class="card-img-top" alt="Manchester United '13 local">
+        <div class="card-body">
+        <span class="badge bg-dark mb-2">Desde $500 MXN</span>
+        <h5 class="card-title">Manchester United '13 local</h5>
+        <a href="https://wa.me/5219901183666?text=Hola,%20me%20interesa%20la%20playera%20Manchester%20United%20local%20de%202013" target="_blank" class="btn btn-success w-100">Pedir por WhatsApp</a>
+        </div>
+        </div>
+        </div>
+
+        <div class="col-6 col-lg-3">
+        <div class="card shadow-sm">
+        <img src="assets/img/retroclub/chelsea-2012-local.jpg" class="card-img-top" alt="Chelsea '12 local">
+        <div class="card-body">
+        <span class="badge bg-dark mb-2">Desde $500 MXN</span>
+        <h5 class="card-title">Chelsea '12 local</h5>
+        <a href="https://wa.me/5219901183666?text=Hola,%20me%20interesa%20la%20playera%20Chelsea%20local%20de%202012" target="_blank" class="btn btn-success w-100">Pedir por WhatsApp</a>
+        </div>
+        </div>
+        </div>
+
+        <div class="col-6 col-lg-3">
+        <div class="card shadow-sm">
+        <img src="assets/img/retroclub/bayernmunich-2015-local.jpg" class="card-img-top" alt="Bayern Múnich '15 local">
+        <div class="card-body">
+        <span class="badge bg-dark mb-2">Desde $500 MXN</span>
+        <h5 class="card-title">Bayern Múnich '15 local</h5>
+        <a href="https://wa.me/5219901183666?text=Hola,%20me%20interesa%20la%20playera%20Bayern%20Munich%20local%20de%202015" target="_blank" class="btn btn-success w-100">Pedir por WhatsApp</a>
+        </div>
+        </div>
+        </div>
+
+        <div class="col-6 col-lg-3">
+        <div class="card shadow-sm">
+        <img src="assets/img/retroclub/juventus-2012-local.jpg" class="card-img-top" alt="Juventus '12 local">
+        <div class="card-body">
+        <span class="badge bg-dark mb-2">Desde $500 MXN</span>
+        <h5 class="card-title">Juventus '12 local</h5>
+        <a href="https://wa.me/5219901183666?text=Hola,%20me%20interesa%20la%20playera%20Juventus%20local%20de%202012" target="_blank" class="btn btn-success w-100">Pedir por WhatsApp</a>
+        </div>
+        </div>
+        </div>
+
+        <div class="col-6 col-lg-3">
+        <div class="card shadow-sm">
+        <img src="assets/img/retroclub/atleticodemadrid-2014-local.jpg" class="card-img-top" alt="Atlético de Madrid '14 local">
+        <div class="card-body">
+        <span class="badge bg-dark mb-2">Desde $500 MXN</span>
+        <h5 class="card-title">Atlético de Madrid '14 local</h5>
+        <a href="https://wa.me/5219901183666?text=Hola,%20me%20interesa%20la%20playera%20Atlético%20de%20Madrid%20local%20de%202014" target="_blank" class="btn btn-success w-100">Pedir por WhatsApp</a>
+        </div>
+        </div>
+        </div>
+
+        <div class="col-6 col-lg-3">
+        <div class="card shadow-sm">
+        <img src="assets/img/retroclub/barcelona-2015-local.jpg" class="card-img-top" alt="Barcelona '15 local">
+        <div class="card-body">
+        <span class="badge bg-dark mb-2">Desde $500 MXN</span>
+        <h5 class="card-title">Barcelona '15 local</h5>
+        <a href="https://wa.me/5219901183666?text=Hola,%20me%20interesa%20la%20playera%20Barcelona%20local%20de%202015" target="_blank" class="btn btn-success w-100">Pedir por WhatsApp</a>
+        </div>
+        </div>
+        </div>
+        </div>
+
+<!-- 2016 - 2020 -->
+<div class="section-title"><h2>2016 - 2020</h2></div>
+<div class="row g-4 catalog">
+
+        <div class="col-6 col-lg-3">
+        <div class="card shadow-sm">
+        <img src="assets/img/retroclub/liverpool-2019-local.jpg" class="card-img-top" alt="Liverpool '19 local">
+        <div class="card-body">
+        <span class="badge bg-dark mb-2">Desde $500 MXN</span>
+        <h5 class="card-title">Liverpool '19 local</h5>
+        <a href="https://wa.me/5219901183666?text=Hola,%20me%20interesa%20la%20playera%20Liverpool%20local%20de%202019" target="_blank" class="btn btn-success w-100">Pedir por WhatsApp</a>
+        </div>
+        </div>
+        </div>
+
+        <div class="col-6 col-lg-3">
+        <div class="card shadow-sm">
+        <img src="assets/img/retroclub/realmadrid-2018-alternativa.jpg" class="card-img-top" alt="Real Madrid '17 local">
+        <div class="card-body">
+        <span class="badge bg-dark mb-2">Desde $500 MXN</span>
+        <h5 class="card-title">Real Madrid '18 alternativa</h5>
+        <a href="https://wa.me/5219901183666?text=Hola,%20me%20interesa%20la%20playera%20Real%20Madrid%20alternativa%20de%202018" target="_blank" class="btn btn-success w-100">Pedir por WhatsApp</a>
+        </div>
+        </div>
+        </div>
+
+        <div class="col-6 col-lg-3">
+        <div class="card shadow-sm">
+        <img src="assets/img/retroclub/barcelona-2018-local.jpg" class="card-img-top" alt="Barcelona '18 local">
+        <div class="card-body">
+        <span class="badge bg-dark mb-2">Desde $500 MXN</span>
+        <h5 class="card-title">Barcelona '18 local</h5>
+        <a href="https://wa.me/5219901183666?text=Hola,%20me%20interesa%20la%20playera%20Barcelona%20local%20de%202018" target="_blank" class="btn btn-success w-100">Pedir por WhatsApp</a>
+        </div>
+        </div>
+        </div>
+
+        <div class="col-6 col-lg-3">
+        <div class="card shadow-sm">
+        <img src="assets/img/retroclub/manchestercity-2019-local.jpg" class="card-img-top" alt="Manchester City '18 local">
+        <div class="card-body">
+        <span class="badge bg-dark mb-2">Desde $500 MXN</span>
+        <h5 class="card-title">Manchester City '19 local</h5>
+        <a href="https://wa.me/5219901183666?text=Hola,%20me%20interesa%20la%20playera%20Manchester%20City%20local%20de%202019" target="_blank" class="btn btn-success w-100">Pedir por WhatsApp</a>
+        </div>
+        </div>
+        </div>
+
+        <div class="col-6 col-lg-3">
+        <div class="card shadow-sm">
+        <img src="assets/img/retroclub/manchesterunited-2019-local.jpg" class="card-img-top" alt="Manchester United '19 local">
+        <div class="card-body">
+        <span class="badge bg-dark mb-2">Desde $500 MXN</span>
+        <h5 class="card-title">Manchester United '17 local</h5>
+        <a href="https://wa.me/5219901183666?text=Hola,%20me%20interesa%20la%20playera%20Manchester%20United%20local%20de%202019" target="_blank" class="btn btn-success w-100">Pedir por WhatsApp</a>
+        </div>
+        </div>
+        </div>
+
+        <div class="col-6 col-lg-3">
+        <div class="card shadow-sm">
+        <img src="assets/img/retroclub/juventus-2020-local.jpg" class="card-img-top" alt="Juventus '20 local">
+        <div class="card-body">
+        <span class="badge bg-dark mb-2">Desde $500 MXN</span>
+        <h5 class="card-title">Juventus '20 local</h5>
+        <a href="https://wa.me/5219901183666?text=Hola,%20me%20interesa%20la%20playera%20Juventus%20local%20de%2020120" target="_blank" class="btn btn-success w-100">Pedir por WhatsApp</a>
+        </div>
+        </div>
+        </div>
+
+        <div class="col-6 col-lg-3">
+        <div class="card shadow-sm">
+        <img src="assets/img/retroclub/psg-2020-local.jpg" class="card-img-top" alt="PSG '20 local">
+        <div class="card-body">
+        <span class="badge bg-dark mb-2">Desde $500 MXN</span>
+        <h5 class="card-title">PSG '20 local</h5>
+        <a href="https://wa.me/5219901183666?text=Hola,%20me%20interesa%20la%20playera%20PSG%20local%20de%202020" target="_blank" class="btn btn-success w-100">Pedir por WhatsApp</a>
+        </div>
+        </div>
+        </div>
+
+        <div class="col-6 col-lg-3">
+        <div class="card shadow-sm">
+        <img src="assets/img/retroclub/bayernmunich-2018-local.jpg" class="card-img-top" alt="Bayern Munich '18 local">
+        <div class="card-body">
+        <span class="badge bg-dark mb-2">Desde $500 MXN</span>
+        <h5 class="card-title">Bayern Munich '18 local</h5>
+        <a href="https://wa.me/5219901183666?text=Hola,%20me%20interesa%20la%20playera%20Bayern%20Munich%20local%20de%202019" target="_blank" class="btn btn-success w-100">Pedir por WhatsApp</a>
+        </div>
+        </div>
+        </div>
+        </div>
+
+<!-- 2021-2024 -->
+<div class="section-title"><h2>2021 - 2024</h2></div>
+<div class="row g-4 catalog">
+        
+        <div class="col-6 col-lg-3">
+        <div class="card shadow-sm">
+        <img src="assets/img/retroclub/manchestercity-2023-local.jpg" class="card-img-top" alt="Manchester City '23 local">
+        <div class="card-body">
+        <span class="badge bg-dark mb-2">Desde $500 MXN</span>
+        <h5 class="card-title">Manchester City '23 local</h5>
+        <a href="https://wa.me/5219901183666?text=Hola,%20me%20interesa%20la%20playera%20Manchester%20City%20local%20de%202023" target="_blank" class="btn btn-success w-100">Pedir por WhatsApp</a>
+        </div>
+        </div>
+        </div>
+
+        <div class="col-6 col-lg-3">
+        <div class="card shadow-sm">
+        <img src="assets/img/retroclub/realmadrid-2022-local.jpg" class="card-img-top" alt="Real Madrid '22 local">
+        <div class="card-body">
+        <span class="badge bg-dark mb-2">Desde $500 MXN</span>
+        <h5 class="card-title">Real Madrid '22 local</h5>
+        <a href="https://wa.me/5219901183666?text=Hola,%20me%20interesa%20la%20playera%20Real%20Madrid%20local%20de%202022" target="_blank" class="btn btn-success w-100">Pedir por WhatsApp</a>
+        </div>
+        </div>
+        </div>
+
+        <div class="col-6 col-lg-3">
+        <div class="card shadow-sm">
+        <img src="assets/img/retroclub/interdemilan-2023-visitante.jpg" class="card-img-top" alt="Inter de Milán '23 visitante">
+        <div class="card-body">
+        <span class="badge bg-dark mb-2">Desde $500 MXN</span>
+        <h5 class="card-title">Inter de Milán '23 visitante</h5>
+        <a href="https://wa.me/5219901183666?text=Hola,%20me%20interesa%20la%20playera%20Inter%20de%20Milán%20visitante%20de%202023" target="_blank" class="btn btn-success w-100">Pedir por WhatsApp</a>
+        </div>
+        </div>
+        </div>
+
+        <div class="col-6 col-lg-3">
+        <div class="card shadow-sm">
+        <img src="assets/img/retroclub/acmilan-2023-local.jpg" class="card-img-top" alt="AC Milan '23 local">
+        <div class="card-body">
+        <span class="badge bg-dark mb-2">Desde $500 MXN</span>
+        <h5 class="card-title">AC Milan '23 local</h5>
+        <a href="https://wa.me/5219901183666?text=Hola,%20me%20interesa%20la%20playera%20AC%20Milan%20local%20de%202023" target="_blank" class="btn btn-success w-100">Pedir por WhatsApp</a>
+        </div>
+        </div>
+        </div>
+
+        <div class="col-6 col-lg-3">
+        <div class="card shadow-sm">
+        <img src="assets/img/retroclub/arsenal-2023-visitante.jpg" class="card-img-top" alt="Arsenal '23 visitante">
+        <div class="card-body">
+        <span class="badge bg-dark mb-2">Desde $500 MXN</span>
+        <h5 class="card-title">Arsenal '23 visitante</h5>
+        <a href="https://wa.me/5219901183666?text=Hola,%20me%20interesa%20la%20playera%20Arsenal%20visitante%20de%202023" target="_blank" class="btn btn-success w-100">Pedir por WhatsApp</a>
+        </div>
+        </div>
+        </div>
+
+        <div class="col-6 col-lg-3">
+        <div class="card shadow-sm">
+        <img src="assets/img/retroclub/barcelona-2023-local.jpg" class="card-img-top" alt="Barcelona '23 local">
+        <div class="card-body">
+        <span class="badge bg-dark mb-2">Desde $500 MXN</span>
+        <h5 class="card-title">Barcelona '23 local</h5>
+        <a href="https://wa.me/5219901183666?text=Hola,%20me%20interesa%20la%20playera%20Barcelona%20local%20de%202023" target="_blank" class="btn btn-success w-100">Pedir por WhatsApp</a>
+        </div>
+        </div>
+        </div>
+
+        <div class="col-6 col-lg-3">
+        <div class="card shadow-sm">
+        <img src="assets/img/retroclub/venezia-2023-local.jpg" class="card-img-top" alt="Venezia '23 local">
+        <div class="card-body">
+        <span class="badge bg-dark mb-2">Desde $500 MXN</span>
+        <h5 class="card-title">Venezia '23 local</h5>
+        <a href="https://wa.me/5219901183666?text=Hola,%20me%20interesa%20la%20playera%20Venezia%20local%20de%202023" target="_blank" class="btn btn-success w-100">Pedir por WhatsApp</a>
+        </div>
+        </div>
+        </div>
+
+        <div class="col-6 col-lg-3">
+        <div class="card shadow-sm">
+        <img src="assets/img/retroclub/manchesterunited-2022-local.jpg" class="card-img-top" alt="Manchester United '22 local">
+        <div class="card-body">
+        <span class="badge bg-dark mb-2">Desde $500 MXN</span>
+        <h5 class="card-title">Manchester United '22 local</h5>
+        <a href="https://wa.me/5219901183666?text=Hola,%20me%20interesa%20la%20playera%20Manchester%20United%20local%20de%202022" target="_blank" class="btn btn-success w-100">Pedir por WhatsApp</a>
+        </div>
+        </div>
+        </div>
+        </div>   
+
+    
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-light text-center p-3">
+        <p class="mb-0">&copy; 2025 Q Jerseys. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        document.getElementById('searchInput').addEventListener('keyup', function() {
+            let filter = this.value.toLowerCase();
+            document.querySelectorAll('.catalog .card').forEach(card => {
+                let text = card.innerText.toLowerCase();
+                card.parentElement.style.display = text.includes(filter) ? '' : 'none';
+            });
+        });
+    </script>
+</body>
+</html>
